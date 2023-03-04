@@ -1,0 +1,37 @@
+4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+R: Os dois veículos se cruzarão a uma distância de aproximadamente 60,9km de Ribeirão Preto. Ou seja, ambos estão a mesma distância da cidade.
+
+Cálculos:
+
+Utilizando a equação do espaço -> S(t) = S0+V0.T
+
+Carro está a 0km de Ribeirão Preto no ponto inicial enquanto o Caminhão está a 100km.
+
+Equação Horária do Carro, onde S0 = 0:
+
+A = Vi1.T
+
+Caminhão: (100km de dist de RP + 10min no pedágio)
+
+Vm = Dist/Tempo -> Tempo = Dist/Vm -> T = 100/80 -> T = 1,25h
+Quero encontrar o tempo de deslocamento do caminhão com base no atraso:
+	10min é aprox 0,17h
+T = 1,25 + 0,17 = 1,42h
+
+Com esse novo tempo de atraso a velocidade do caminhão se altera:
+Vm = Dist/Tempo -> Vm = 100/1,42 -> Vm = 70,6Km/h
+
+Equação Horária do Caminhão, onde o S0 = 100 km
+B = 100 - Vi2.T (é subtraído pois o Caminhão está partindo de 100km de distancia do ponto de referência)
+
+O Tempo é constante em ambos, assim:
+T = A/Vi1 e T = (B - 100)/-Vi2
+A/Vi1 = (B - 100)/-Vi2
+
+A e B são o ponto no tempo onde ocorrerá o cruzamento do carro com o caminhão, logo considero-os iguais
+S/Vi1 = (S - 100)/-Vi2
+
+Com base nessa formula é possível chegar a:
+S = (Vi1.100)/Vi1+Vi2 -> Assim S é aproximadamente igual a: 60,9km
+Portanto ambos estão na mesma distância de RP quando se cruzam.
